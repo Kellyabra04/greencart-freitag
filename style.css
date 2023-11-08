@@ -150,19 +150,19 @@ footer ul li a {
   left: 10px;
 }
 .wistje-banner-image {
-  width: 238px; /* Set the desired width */
+  width: 227px; /* Set the desired width */
   height: auto; /* Automatically adjust the height to maintain the aspect ratio */
   margin: 10px; /* Add some margin around the image */
   border-radius: 10px; /* Add rounded corners to the image */
   position: relative; /* Set the position property to relative */
-  top: 1076px; /* Adjust the top value to lower the image */
-  left: 50px;
+  top: 17px; /* Adjust the top value to lower the image */
+  left: -41px;
 }
 
 .text-block-index-middel {
   background: #eceeec00; /* Background color using the hexadecimal color code */
   position: relative; /* Change the position to relative */
-  top: 1050px; /* Move the block 20 pixels up (adjust as needed) */
+  top: 440px; /* Move the block 20 pixels up (adjust as needed) */
   left: 95px; /* Move the block 20 pixels to the left (adjust as needed) */
   text-align: center; /* Center align the content within the text block */
   width: 45%;
