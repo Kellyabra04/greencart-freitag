@@ -44,6 +44,7 @@ header nav ul li a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-family: "customfont-two";
+  font-size: 1em;
 }
 
 footer ul {
@@ -77,11 +78,11 @@ footer ul li a {
 }
 
 .body-background-practices {
-  background-image: url("images/background-praktijken.jpg");
+  background-image: url("images/backgroundtres.jpg");
 }
 
 .body-background-producten {
-  background-image: url("images/backgroundfour.png");
+  background-image: url("images/backgroundquatro.jpg");
 }
 
 /* index.html */
@@ -107,7 +108,7 @@ footer ul li a {
   color: rgb(255, 255, 255);
   position: absolute;
   top: 11.1em;
-  left: 3em;
+  left: 3.3em;
   font-size: 2.5em;
   font-family: "customfont-three";
 }
@@ -145,7 +146,7 @@ footer ul li a {
   color: rgb(255, 255, 255);
   position: absolute;
   top: 6.2em;
-  left: 1.9em;
+  left: 2.4em;
   font-size: 2.5em;
   font-family: "customfont-three";
 }
@@ -262,13 +263,12 @@ footer ul li a {
   margin: 1em;
   position: absolute;
   top: 17.8em;
-  left: -5px;
+  left: -2em;
 }
 
 .missie-visie-banner-image {
-  width: 360px;
+  width: 100%;
   height: auto;
-  border-radius: 10px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -279,7 +279,7 @@ footer ul li a {
   background: #eceeec00;
   position: relative;
   top: -13em;
-  left: 20px;
+  left: 1.8em;
   text-align: center;
   width: 88%;
   font-size: 75%;
@@ -309,19 +309,18 @@ footer ul li a {
 /* praktijken.html */
 
 .duurzaamheidspraktijken-banner-praktijken-image {
-  width: 230px;
+  width: 80%;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
+  margin: 1em;
   position: relative;
-  top: 20px;
+  top: 1.9em;
 }
 
 .text-block-praktijken-right {
   background: #eceeec00;
   position: relative;
-  top: 40px;
-  left: 40px;
+  top: 3.6em;
+  left: 4em;
   text-align: center;
   width: 80%;
   font-size: 70%;
@@ -331,8 +330,8 @@ footer ul li a {
 .text-block-praktijken-right h2 {
   background: #ffffff00;
   position: absolute;
-  top: 27px;
-  left: 30px;
+  top: 1.4em;
+  left: 1.4em;
   text-align: center;
   width: 80%;
   font-size: 2em;
@@ -341,60 +340,58 @@ footer ul li a {
 }
 
 .vrachtwagen-image {
-  width: 110px;
+  width: 9.2em;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
   position: absolute;
-  top: 617px;
-  left: 40px;
+  top: 43em;
+  left: 2em;
 }
 
 .gordel-image {
-  width: 124px;
+  width: 9em;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
   position: absolute;
-  top: 615px;
-  left: 200px;
+  top: 39em;
+  left: 12.5em;
 }
 
 .fiets-image {
-  width: 130px;
+  width: 6.5em;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
   position: absolute;
-  top: 827px;
-  left: 35px;
+  top: 51.7em;
+  left: 3.6em;
+}
+
+.airbag-image {
+  width: 9em;
+  height: auto;
+  position: absolute;
+  top: 53em;
+  left: 12.4em;
 }
 
 .duurzaamheidinbeeld-banner-praktijken-image {
-  width: 170px;
+  width: 47%;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
   position: relative;
-  top: 453px;
-  left: 70px;
+  top: 28.8em;
+  left: 3em;
 }
 
 .afval-image {
-  width: 260px;
+  width: 110%;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
-  position: absolute;
-  top: -220px;
-  left: 20px;
+  position: relative;
+  top: -1em;
+  left: 1em;
 }
 
 .text-block-praktijken-links {
   background: #eceeec00;
   position: relative;
-  top: 640px;
-  left: 15px;
+  top: 41em;
+  left: 2em;
   text-align: center;
   width: 69%;
   font-size: 70%;
@@ -404,8 +401,8 @@ footer ul li a {
 .text-block-praktijken-links h2 {
   background: #ffffff00;
   position: absolute;
-  top: -295px;
-  left: 75px;
+  top: -4.5em;
+  left: 2.3em;
   text-align: center;
   width: 60%;
   font-size: 1.7em;
@@ -413,116 +410,148 @@ footer ul li a {
   font-family: "customfont-three";
 }
 
-.tabel-image {
-  width: 378px;
-  height: auto;
-  border-radius: 10px;
-  position: relative;
-  top: 535px;
-  left: -20px;
+table.my-table {
+  table-layout: fixed;
+  width: 96.5% !important; /* Adjust the percentage to make the table narrower */
+  border-collapse: collapse;
+  margin-top: 30em;
+  margin-left: 1.3em;
+  font-family: "customfont-three";
+}
+
+.my-table th,
+.my-table td {
+  border: 1px solid #000;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 90%;
+  font-family: "customfont-three";
+}
+
+.my-table th {
+  background-color: #f0f0f0;
+}
+
+/* Add blue background to cells on the left side (associated with "Freitag") */
+.my-table td:nth-child(odd) {
+  background-color: blue; /* Change this to your preferred shade of blue */
+  color: white; /* Change text color to ensure visibility on blue background */
 }
 
 /* producten.html */
 
+.text-block-producten-middel h1 {
+  background: #ffffff00;
+  position: absolute;
+  top: -9.8em;
+  left: 0.8em;
+  text-align: center;
+  width: 60%;
+  font-size: 2.5em;
+  color: rgb(255, 255, 255);
+  font-family: "customfont-three";
+}
+
 .producten-banner-image {
-  width: 160px;
+  width: 10em;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
   position: relative;
-  top: -52px;
-  left: 70px;
+  top: 4.8em;
+  left: 5em;
 }
 
 .saddlebag-image {
-  width: 33%;
+  width: 7.5em;
   height: auto;
-  margin: 3%;
   border-radius: 3%;
   position: relative;
-  top: 9.9em;
-  left: -10.3em;
+  top: 6em;
+  left: 1.8em;
 }
 
 .red-bag-image {
-  width: 105px;
+  width: 7em;
   height: auto;
-  margin: 400px;
-  border-radius: 10px;
+  border-radius: 3%;
   position: absolute;
-  top: -122px;
-  left: -215px;
+  top: 17em;
+  left: 11.4em;
 }
 
 .toilet-bag-image {
-  width: 170px;
+  width: 11em;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
+  border-radius: 3%;
   position: absolute;
-  top: 435px;
-  left: 25px;
+  top: 27.8em;
+  left: 2.1em;
 }
 
 .grey-bag-image {
-  width: 70px;
+  width: 4.3em;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
+  border-radius: 3%;
   position: relative;
-  top: 20px;
-  left: 10px;
+  top: 14.2em;
+  left: 6.3em;
 }
 
 .bag-display-image {
-  width: 270px;
+  width: 17em;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
+  border-radius: 3%;
   position: relative;
-  top: 300px;
-  left: 14px;
+  top: 15.6em;
+  left: 1.4em;
 }
 
 .yellow-bag-image {
-  width: 180px;
+  width: 11em;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
+  border-radius: 3%;
   position: relative;
-  top: 310px;
-  left: 30px;
+  top: 17em;
+  left: 2.5em;
 }
 
 .red-wallet-image {
-  width: 105px;
+  width: 7em;
   height: auto;
-  margin: 10px;
   border-radius: 10px;
   position: relative;
-  top: 160px;
-  left: 240px;
+  top: 17.5em;
+  left: 4.2em;
 }
 
 .mijn-recensie-banner-image {
-  width: 200px;
+  width: 12em;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
   position: relative;
-  top: 255px;
-  left: -50px;
+  top: 18em;
+  left: 5.8em;
 }
 
-.text-block-producten-one {
+.text-block-producten-middel {
   background: #eceeec00;
   position: relative;
-  top: 250px;
-  left: 60px;
+  top: 24em;
+  left: 5em;
   text-align: center;
   width: 70%;
   font-size: 75%;
   color: rgb(0, 0, 0);
+}
+
+.text-block-producten-middel h2 {
+  background: #ffffff00;
+  position: absolute;
+  top: -4.4em;
+  left: 1.7em;
+  text-align: center;
+  width: 60%;
+  font-size: 2.5em;
+  color: rgb(255, 255, 255);
+  font-family: "customfont-three";
 }
 
 /* footer */
@@ -533,7 +562,7 @@ footer ul li a {
 .text-block-footer-procensies {
   background: #05bb0500;
   position: relative;
-  left: 20px;
+  left: 2em;
   text-align: center;
   width: 75%;
   font-size: 90%;
@@ -542,19 +571,19 @@ footer ul li a {
 }
 
 .text-block-footer-index {
-  top: 860px;
+  top: 60em;
 }
 
 .text-block-footer-freitag {
-  top: 280px;
+  top: 14em;
 }
 
 .text-block-footer-praktijken {
-  top: 620px;
+  top: 14em;
 }
 
 .text-block-footer-procensies {
-  top: 760px;
+  top: 52em;
 }
 
 /* green leaves */
@@ -586,32 +615,4 @@ footer ul li a {
 
 .green-image-four {
   top: 75px;
-}
-
-table.my-table {
-  table-layout: fixed;
-  width: 96.5% !important; /* Adjust the percentage to make the table narrower */
-  border-collapse: collapse;
-  margin-top: 666px;
-  margin-left: 20px;
-  font-family: "customfont-three";
-}
-
-.my-table th,
-.my-table td {
-  border: 1px solid #000;
-  padding: 0.5em;
-  text-align: center;
-  font-size: 90%;
-  font-family: "customfont-three";
-}
-
-.my-table th {
-  background-color: #f0f0f0;
-}
-
-/* Add blue background to cells on the left side (associated with "Freitag") */
-.my-table td:nth-child(odd) {
-  background-color: blue; /* Change this to your preferred shade of blue */
-  color: white; /* Change text color to ensure visibility on blue background */
 }
