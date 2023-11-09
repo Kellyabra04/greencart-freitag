@@ -1,4 +1,4 @@
-/* Global styles */
+/* fonts */
 
 @font-face {
   font-family: "customfont";
@@ -10,6 +10,13 @@
 @font-face {
   font-family: "customfont-two";
   src: url(Rowdies/Rowdies-Light.ttf) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "customfont-three";
+  src: url(Indie_Flower/IndieFlower-Regular.ttf) format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -28,7 +35,7 @@ header nav ul {
 header nav ul li {
   list-style: none;
   margin: 0;
-  padding: 15px;
+  padding: 4%;
   text-align: center;
   z-index: 3;
 }
@@ -46,13 +53,15 @@ footer ul {
 }
 
 footer li {
-  margin-left: 25px;
+  margin-left: 6%;
 }
 
 footer ul li a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+
+/* background */
 
 .body-background {
   background-size: cover;
@@ -68,27 +77,28 @@ footer ul li a {
 }
 
 .body-background-practices {
-  background-image: url("images/backingthree.png");
+  background-image: url("images/background-praktijken.jpg");
 }
 
 .body-background-producten {
   background-image: url("images/backgroundfour.png");
 }
 
+/* index.html */
+
 .logo-image-index {
-  width: 200px;
+  width: 80%;
   height: auto;
-  margin: 10px;
-  border-radius: 10px;
+  margin: 5%;
 }
 
 .text-block-index-left {
-  background: #eceeec00; /* Background color using the hexadecimal color code */
-  padding: 20px; /* Adjust padding as needed */
-  position: relative; /* Change the position to relative */
-  top: 110px; /* Move the block 20 pixels up (adjust as needed) */
-  left: 10px; /* Move the block 20 pixels to the left (adjust as needed) */
-  text-align: center; /* Center align the content within the text block */
+  background: #eceeec00;
+  padding: 5%;
+  position: relative;
+  top: 9em;
+  left: 1em;
+  text-align: center;
   width: 70%;
   font-size: 75%;
 }
@@ -96,372 +106,426 @@ footer ul li a {
 .text-block-index-left h2 {
   color: rgb(255, 255, 255);
   position: absolute;
-  top: 333px;
-  left: 97px;
-  font-size: 30px;
+  top: 11.1em;
+  left: 3em;
+  font-size: 2.5em;
+  font-family: "customfont-three";
 }
 
 .overons-banner-image {
-  width: 160px; /* Set the desired width */
-  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 25px; /* Adjust the top value to lower the image */
-  left: 8px;
+  width: 60%;
+  height: auto;
+  margin: 5%;
+  position: relative;
+  top: 1.9em;
+  left: 0.8em;
 }
 
 .text-block-index-right {
-  background: #eceeec00; /* Background color using the hexadecimal color code */
-  position: relative; /* Change the position to relative */
-  top: 110px; /* Move the block 20 pixels up (adjust as needed) */
-  left: 80px; /* Move the block 20 pixels to the left (adjust as needed) */
-  text-align: center; /* Center align the content within the text block */
+  background: #eceeec00;
+  position: relative;
+  top: 9em;
+  left: 7.5em;
+  text-align: center;
   width: 70%;
   font-size: 75%;
   z-index: 3;
 }
 
+.voordelen-banner-image {
+  width: 80%;
+  height: auto;
+  margin: 4.8%;
+  position: relative;
+  top: 0.3em;
+  left: 0.6em;
+}
+
 .text-block-index-right h2 {
   color: rgb(255, 255, 255);
   position: absolute;
-  top: 190px;
-  left: 70px;
-  font-size: 30px;
+  top: 6.2em;
+  left: 1.9em;
+  font-size: 2.5em;
+  font-family: "customfont-three";
 }
 
 .text-block-index-right ul {
-  top: 270px;
+  top: 22.3em;
   text-align: left;
   position: absolute;
 }
 
 .text-block-index-right ul li {
-  margin-bottom: 6px;
+  margin-bottom: 0.6em;
 }
 
-.voordelen-banner-image {
-  width: 200px; /* Set the desired width */
-  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 5px; /* Adjust the top value to lower the image */
-  left: 10px;
-}
 .wistje-banner-image {
-  width: 227px; /* Set the desired width */
-  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 17px; /* Adjust the top value to lower the image */
-  left: -41px;
+  width: 138%;
+  height: auto;
+  margin: 4.7%;
+  position: relative;
+  top: 1.2em;
+  left: -3em;
 }
 
 .text-block-index-middel {
-  background: #eceeec00; /* Background color using the hexadecimal color code */
-  position: relative; /* Change the position to relative */
-  top: 440px; /* Move the block 20 pixels up (adjust as needed) */
-  left: 95px; /* Move the block 20 pixels to the left (adjust as needed) */
-  text-align: center; /* Center align the content within the text block */
+  background: #eceeec00;
+  position: relative;
+  top: 36.6em;
+  left: 7.9em;
+  text-align: center;
   width: 45%;
   font-size: 75%;
 }
 
 .text-block-index-middel ul {
-  list-style: none; /* Remove the default list-style (bullet points) */
-  padding: 0; /* Remove any padding */
-  margin: 0; /* Remove any margin */
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .text-block-index-middel ul li {
-  margin-bottom: 7px;
+  margin-bottom: 7%;
 }
 
+.text-block-index-middel h2 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 0.4em;
+  left: -0.6em;
+  font-size: 2.5em;
+  width: 130%;
+  font-family: "customfont-three";
+}
+
+/* freitag.html */
+
 .text-block-freitag-left {
-  background: #eceeec00; /* Background color using the hexadecimal color code */
-  position: absolute; /* Change the position to relative */
-  top: 180px; /* Move the block 20 pixels up (adjust as needed) */
-  left: 30px; /* Move the block 20 pixels to the left (adjust as needed) */
-  text-align: center; /* Center align the content within the text block */
+  background: #eceeec00;
+  position: relative;
+  top: 9em;
+  left: 3em;
+  text-align: center;
   width: 70%;
   font-size: 75%;
+  text-align: left;
 }
 
 .freitag-logo-image {
-  width: 270px; /* Set the desired width */
-  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 320px; /* Adjust the top value to lower the image */
-  left: 10px;
+  width: 17em;
+  height: auto;
+  margin: 3%;
+  position: relative;
+  top: 9.7em;
+  left: 0.8em;
 }
 
-.map-image {
-  width: 300px; /* Set the desired width */
-  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 280px; /* Adjust the top value to lower the image */
-  left: -5px;
+.store-image {
+  width: 19em;
+  height: auto;
+  margin: 0.6em;
+  position: relative;
+  top: 8.5em;
+  left: -0.3em;
 }
 
 .text-block-freitag-adress {
-  background: #eceeec00; /* Background color using the hexadecimal color code */
-  position: relative; /* Change the position to relative */
-  top: 270px; /* Move the block 20 pixels up (adjust as needed) */
-  left: -20px; /* Move the block 20 pixels to the left (adjust as needed) */
-  text-align: center; /* Center align the content within the text block */
+  background: #eceeec00;
+  position: relative;
+  top: 9em;
+  left: -1em;
+  text-align: center;
   width: 70%;
   font-size: 85%;
   z-index: 3;
 }
 
 .text-block-freitag-right {
-  background: #eceeec00; /* Background color using the hexadecimal color code */
-  position: relative; /* Change the position to relative */
-  top: 350px; /* Move the block 20 pixels up (adjust as needed) */
-  left: 90px; /* Move the block 20 pixels to the left (adjust as needed) */
-  text-align: center; /* Center align the content within the text block */
+  background: #eceeec00;
+  position: relative;
+  top: 17.2em;
+  left: 8em;
+  text-align: center;
   width: 70%;
   font-size: 75%;
+  text-align: left;
 }
 
 .text-block-freitag-right p:first-child {
-  margin-bottom: 260px; /* Add margin to the bottom of the first <p> element */
+  margin-bottom: 110%;
 }
 
 .flag-image {
-  width: 250px; /* Set the desired width */
-  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: absolute; /* Set the position property to relative */
-  top: 208px; /* Adjust the top value to lower the image */
+  width: 100%;
+  height: auto;
+  margin: 1em;
+  position: absolute;
+  top: 17.8em;
   left: -5px;
 }
 
 .missie-visie-banner-image {
-  width: 370px; /* Set the desired width */
-  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 355px; /* Adjust the top value to lower the image */
+  width: 360px;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  top: 14em;
 }
 
 .text-block-freitag-middel {
-  background: #eceeec00; /* Background color using the hexadecimal color code */
-  position: relative; /* Change the position to relative */
-  top: -40px; /* Move the block 20 pixels up (adjust as needed) */
-  left: 10px; /* Move the block 20 pixels to the left (adjust as needed) */
-  text-align: center; /* Center align the content within the text block */
+  background: #eceeec00;
+  position: relative;
+  top: -13em;
+  left: 20px;
+  text-align: center;
   width: 88%;
   font-size: 75%;
   color: rgb(255, 255, 255);
 }
 
-.text-block-freitag-middel p:first-child {
-  margin-bottom: 90px; /* Add margin to the bottom of the first <p> element */
+.text-block-freitag-middel h2:first-child {
+  position: absolute;
+  top: -2.2em;
+  left: 4em;
+  font-size: 2.5em;
+  font-family: "customfont-three";
 }
 
-.producten-banner-image {
-  width: 210px; /* Set the desired width */
-  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: -42px; /* Adjust the top value to lower the image */
-  left: 41px;
+.text-block-freitag-middel h2:nth-child(2) {
+  position: absolute;
+  top: 4.9em;
+  left: 4.5em;
+  font-size: 2.5em;
+  font-family: "customfont-three";
 }
 
-.saddlebag-image {
-  width: 119px; /* Set the desired width */
-  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 157px; /* Adjust the top value to lower the image */
-  left: -216px;
+.text-block-freitag-middel p {
+  margin-bottom: 8em; /* Adjust the value to control the gap between paragraphs */
 }
 
-.red-bag-image {
-  width: 105px; /* Set the desired width */
-  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  margin: 400px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: absolute; /* Set the position property to relative */
-  top: -122px; /* Adjust the top value to lower the image */
-  left: -215px;
-}
-
-.toilet-bag-image {
-  width: 170px; /* Set the desired width */
-  height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: absolute; /* Set the position property to relative */
-  top: 435px; /* Adjust the top value to lower the image */
-  left: 25px;
-}
-
-.grey-bag-image {
-  width: 70px; /* Set the desired width */
-  height: auto;
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 20px; /* Adjust the top value to lower the image */
-  left: 10px;
-}
-
-.bag-display-image {
-  width: 270px; /* Set the desired width */
-  height: auto;
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 300px; /* Adjust the top value to lower the image */
-  left: 14px;
-}
-
-.yellow-bag-image {
-  width: 180px; /* Set the desired width */
-  height: auto;
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 310px; /* Adjust the top value to lower the image */
-  left: 30px;
-}
-
-.red-wallet-image {
-  width: 105px; /* Set the desired width */
-  height: auto;
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 160px; /* Adjust the top value to lower the image */
-  left: 240px;
-}
-
-.mijn-recensie-banner-image {
-  width: 200px; /* Set the desired width */
-  height: auto;
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 255px; /* Adjust the top value to lower the image */
-  left: -50px;
-}
-
-.text-block-producten-one {
-  background: #eceeec00; /* Background color using the hexadecimal color code */
-  position: relative; /* Change the position to relative */
-  top: 250px; /* Move the block 20 pixels up (adjust as needed) */
-  left: 60px; /* Move the block 20 pixels to the left (adjust as needed) */
-  text-align: center; /* Center align the content within the text block */
-  width: 70%;
-  font-size: 75%;
-  color: rgb(0, 0, 0);
-}
+/* praktijken.html */
 
 .duurzaamheidspraktijken-banner-praktijken-image {
-  width: 300px; /* Set the desired width */
+  width: 230px;
   height: auto;
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 38px; /* Adjust the top value to lower the image */
-  left: 40px;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 20px;
 }
 
 .text-block-praktijken-right {
-  background: #eceeec00; /* Background color using the hexadecimal color code */
-  position: relative; /* Change the position to relative */
-  top: 0px; /* Move the block 20 pixels up (adjust as needed) */
-  left: 40px; /* Move the block 20 pixels to the left (adjust as needed) */
-  text-align: center; /* Center align the content within the text block */
+  background: #eceeec00;
+  position: relative;
+  top: 40px;
+  left: 40px;
+  text-align: center;
   width: 80%;
   font-size: 70%;
   color: rgb(0, 0, 0);
 }
 
+.text-block-praktijken-right h2 {
+  background: #ffffff00;
+  position: absolute;
+  top: 27px;
+  left: 30px;
+  text-align: center;
+  width: 80%;
+  font-size: 2em;
+  font-family: "customfont-three";
+  color: #f0f0f0;
+}
+
 .vrachtwagen-image {
-  width: 110px; /* Set the desired width */
+  width: 110px;
   height: auto;
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: absolute; /* Set the position property to relative */
-  top: 617px; /* Adjust the top value to lower the image */
+  margin: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 617px;
   left: 40px;
 }
 
 .gordel-image {
-  width: 124px; /* Set the desired width */
+  width: 124px;
   height: auto;
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: absolute; /* Set the position property to relative */
-  top: 615px; /* Adjust the top value to lower the image */
+  margin: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 615px;
   left: 200px;
 }
 
 .fiets-image {
-  width: 130px; /* Set the desired width */
+  width: 130px;
   height: auto;
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: absolute; /* Set the position property to relative */
-  top: 827px; /* Adjust the top value to lower the image */
+  margin: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 827px;
   left: 35px;
 }
 
 .duurzaamheidinbeeld-banner-praktijken-image {
-  width: 260px; /* Set the desired width */
+  width: 170px;
   height: auto;
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 395px; /* Adjust the top value to lower the image */
-  left: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 453px;
+  left: 70px;
 }
 
 .afval-image {
-  width: 260px; /* Set the desired width */
+  width: 260px;
   height: auto;
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: absolute; /* Set the position property to relative */
-  top: 1110px; /* Adjust the top value to lower the image */
+  margin: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: -220px;
   left: 20px;
 }
 
 .text-block-praktijken-links {
-  background: #eceeec00; /* Background color using the hexadecimal color code */
-  position: relative; /* Change the position to relative */
-  top: 578px; /* Move the block 20 pixels up (adjust as needed) */
-  left: 15px; /* Move the block 20 pixels to the left (adjust as needed) */
-  text-align: center; /* Center align the content within the text block */
+  background: #eceeec00;
+  position: relative;
+  top: 640px;
+  left: 15px;
+  text-align: center;
   width: 69%;
   font-size: 70%;
   color: rgb(0, 0, 0);
 }
 
+.text-block-praktijken-links h2 {
+  background: #ffffff00;
+  position: absolute;
+  top: -295px;
+  left: 75px;
+  text-align: center;
+  width: 60%;
+  font-size: 1.7em;
+  color: rgb(255, 255, 255);
+  font-family: "customfont-three";
+}
+
 .tabel-image {
-  width: 378px; /* Set the desired width */
+  width: 378px;
   height: auto;
-  margin: 10px; /* Add some margin around the image */
-  border-radius: 10px; /* Add rounded corners to the image */
-  position: relative; /* Set the position property to relative */
-  top: 475px; /* Adjust the top value to lower the image */
+  border-radius: 10px;
+  position: relative;
+  top: 535px;
   left: -20px;
 }
+
+/* producten.html */
+
+.producten-banner-image {
+  width: 160px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: -52px;
+  left: 70px;
+}
+
+.saddlebag-image {
+  width: 33%;
+  height: auto;
+  margin: 3%;
+  border-radius: 3%;
+  position: relative;
+  top: 9.9em;
+  left: -10.3em;
+}
+
+.red-bag-image {
+  width: 105px;
+  height: auto;
+  margin: 400px;
+  border-radius: 10px;
+  position: absolute;
+  top: -122px;
+  left: -215px;
+}
+
+.toilet-bag-image {
+  width: 170px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 435px;
+  left: 25px;
+}
+
+.grey-bag-image {
+  width: 70px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.bag-display-image {
+  width: 270px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 300px;
+  left: 14px;
+}
+
+.yellow-bag-image {
+  width: 180px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 310px;
+  left: 30px;
+}
+
+.red-wallet-image {
+  width: 105px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 160px;
+  left: 240px;
+}
+
+.mijn-recensie-banner-image {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 255px;
+  left: -50px;
+}
+
+.text-block-producten-one {
+  background: #eceeec00;
+  position: relative;
+  top: 250px;
+  left: 60px;
+  text-align: center;
+  width: 70%;
+  font-size: 75%;
+  color: rgb(0, 0, 0);
+}
+
+/* footer */
 
 .text-block-footer-index,
 .text-block-footer-freitag,
@@ -478,11 +542,11 @@ footer ul li a {
 }
 
 .text-block-footer-index {
-  top: 1210px;
+  top: 860px;
 }
 
 .text-block-footer-freitag {
-  top: 425px;
+  top: 280px;
 }
 
 .text-block-footer-praktijken {
@@ -492,6 +556,8 @@ footer ul li a {
 .text-block-footer-procensies {
   top: 760px;
 }
+
+/* green leaves */
 
 .green-image-one,
 .green-image-two,
@@ -520,4 +586,32 @@ footer ul li a {
 
 .green-image-four {
   top: 75px;
+}
+
+table.my-table {
+  table-layout: fixed;
+  width: 96.5% !important; /* Adjust the percentage to make the table narrower */
+  border-collapse: collapse;
+  margin-top: 666px;
+  margin-left: 20px;
+  font-family: "customfont-three";
+}
+
+.my-table th,
+.my-table td {
+  border: 1px solid #000;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 90%;
+  font-family: "customfont-three";
+}
+
+.my-table th {
+  background-color: #f0f0f0;
+}
+
+/* Add blue background to cells on the left side (associated with "Freitag") */
+.my-table td:nth-child(odd) {
+  background-color: blue; /* Change this to your preferred shade of blue */
+  color: white; /* Change text color to ensure visibility on blue background */
 }
